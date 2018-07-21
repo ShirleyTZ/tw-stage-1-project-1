@@ -18,3 +18,273 @@ body {
     width:110px;
     margin:11px;
 }
+
+
+ul,li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#topList {
+    overflow: hidden;
+    padding-top: 20px;
+    margin: auto;
+    width: 1200px;
+
+}
+#logoLeft {
+    width: 100px;
+    height: 100px;
+    margin: 0px 25px 0px 25px;
+    float: left;
+}
+#cataList {
+    height: 100px;
+    margin: 0px 270px 0px 150px;
+    overflow: hidden;
+}
+.catalogue li {
+    color: white;
+    float: left;
+    padding: 0px 10px;
+    font-size: 15px;
+    border-right: 1px solid white;
+;
+}
+
+.list2 {  
+    background-color: grey;
+}
+.list2 li {
+    font-size: 11px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+.catalogue li:last-child {
+    border: none;
+}
+.catalogue {
+    float: right;
+    margin-top: 20px;
+}
+
+
+#inputBox {
+    width: 250px;
+    height: 50px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#inputBox img {
+    width: 50px;
+    display: block;
+    float: left;
+}
+#inputBox div {
+    width:200px;
+    height: 50px;
+    background-color:grey;
+    float: left;
+}
+#search {
+    display: block;
+    width: 130px;
+    height: 50px;
+    color: black;
+    border: none;
+    padding: 0px 10px;
+    background-color: transparent;
+    float: left;
+}
+
+
+#historyArticle {
+    width: 1200px;
+    margin: auto;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+#articleLeft {
+    float: left;
+    width: 590px;
+    height: 590px;
+}
+#articleRight {
+    float: right;
+    width: 580px;
+}
+#articleSubLeft {
+    width: 280px;
+    height: 286px;
+}
+#articleSubRight {
+    width: 260px;
+    height: 276px;
+    margin-right: 0px;
+    padding: 10px 10px 0px 10px;
+    float: right;
+    background-color: #6089E2;
+}
+#articleSubRight div {
+    color: white;
+    margin: 0px;
+    height: 220px;
+}
+
+#articleSubRight div:first-child {
+    border-bottom: 1px solid white;
+    height: 30px;
+}
+
+#articleSubRight div p {
+    margin: 0px 0px 5px 0px;
+    font-size: 10px;
+}
+#articleSubRight div:last-child {
+    border-top: 1px solid white;
+    height: 20px;
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+#articleSubRight div span:last-child {
+    float: right;
+}
+#articleSubBottom {
+    margin-top: 20px;
+    height: 280px;
+    width: 600px;
+}
+
+
+.name {
+    background-color: #A8A8FC;
+    color: white;
+    padding: 5px 5px 0px 5px;
+}
+.massage {
+    background-color: white;
+    padding: 5px 0px 0px 0px;
+}
+
+#articleLeftMassage {
+    width: 590px;
+    position: absolute;
+    bottom: 44px;
+}
+#articleSubLeftMassage {
+    position: absolute;
+    bottom: 350px;
+    width: 280px;
+}
+#articleSubBottomMessage {
+    position: absolute;
+    bottom: 44px;
+    width: 590px;
+}
+
+
+
+#stars {
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+    padding-top: 20px; 
+}
+#starsLeftImg {
+    width: 285px;
+    height: 295px;
+    float: left;
+}
+#starsMiddleImg {
+    width: 590px;
+    margin: 0px 20px;
+}
+#video {
+    width: 285px;
+    float: right;
+}
+#video iframe {
+    width: 285px;
+    height: 291px;
+}
+
+#starsLeftImgMassage {
+    width: 285px;
+    position: relative;
+    bottom: 51px;
+}
+#starsMiddleImgMassage {
+    width: 590px;
+    position: relative;
+    bottom: 99px;
+    left: 305px;
+}
+
+#NasaState {
+    width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+}
+#NasaState img {
+    width: 285px;
+    height: 285px;
+
+    padding: 0px;
+    border: none;
+}
+#aboutNasa,#personNasa,#cassiniNasa {
+    margin-right: 15px;
+}
+
+.NasaMassage {
+    width: 285px;
+    float: left;
+    margin-right: 20px;
+}
+#telescopeNasaMassage {
+    margin-right: 0px;
+}
+#nasaMasage {
+    position: relative;
+    bottom: 73px;
+}
+
+
+
+#moreStories {
+    width: 1200px;
+    margin: auto;
+    height: 30px;
+    overflow: hidden;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+#bottomLogo {
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    padding-top: 20px;
+    color: white;
+}
+#bottomLogoImg,#official {
+    float: left;
+}
+
+#bottomList {
+    width: 1200px;
+    margin: auto;
+}
+#bottomList li {
+    float: left;
+    color: #B8B8FC;
+    font-size: 10px;
+    padding: 0px 10px;
+}
+#bottomList ul {
+    float: right;
+}
